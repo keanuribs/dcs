@@ -9,7 +9,8 @@ if (isset($_SESSION['SESSION_EMAIL'])) {
     die();
 }
 
-require 'vendor/autoload.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/dcs/assets/vendor/autoload.php';
+
 include '../include/db.php';
 $msg = "";
 $roles = 'Student';
