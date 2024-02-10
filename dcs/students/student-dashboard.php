@@ -1,5 +1,16 @@
+<?
+
+  session_start();
+  if (!isset($_SESSION['SESSION_EMAIL'])) {
+      header("Location: ../index.php");
+      die();
+  }
+
+?>
+
 <!doctype html>
 <html>
+
 
 <body className='snippet-body'>
 

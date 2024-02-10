@@ -1,10 +1,10 @@
 <?php
 session_start();
-if (isset($_SESSION['SESSION_EMAIL'])) {
-    header("Location: student-dashboard.php");
-    die();
-}
 
+if (isset($_SESSION['SESSION_EMAIL'])) {
+  header("Location: student-dashboard.php");
+  die();
+}
 // Check if a verification message is set
 if (isset($_SESSION['verification_msg'])) {
     $verificationMsg = $_SESSION['verification_msg'];
