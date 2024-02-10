@@ -11,7 +11,7 @@ if (isset($_SESSION['SESSION_EMAIL'])) {
 }
 
 // Load Composer's autoloader
-require 'vendor/autoload.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/dcs/assets/vendor/autoload.php';
 include '../include/db.php';
 $msg = "";
 require 'SMTP_validateEmail.php';
