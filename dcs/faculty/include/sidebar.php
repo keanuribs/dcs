@@ -28,7 +28,7 @@
                     href="#" class="nav_link"> <i class='bx bx-bar-chart-alt-2 nav_icon'></i> <span
                         class="nav_name">Stats</span> </a>
             </div>
-        </div> <a href="../../include/logout.php" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span
-                class="nav_name">SignOut</span> </a>
+        </div> <a href="../include/logout.php" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span
+                class="nav_name">Sign Out</span> </a>
     </nav>
 </div>
